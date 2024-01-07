@@ -1,0 +1,120 @@
+body {
+    text-align: center;
+    display: block;
+    font-family: Roboto serif;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px; 
+    background-image: url(imagenes/sigmund-xvSEauDHrNI-unsplash.jpg);
+    background-size: cover;
+    background-position-y: 1200px;
+    margin-bottom: -28px;
+}
+
+#titulo {
+color: #FFF;
+text-align: center;
+font-family: Roboto serif;
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration-line: underline;
+text-transform: uppercase;
+}
+
+
+#slogan {
+    color: #FFF;
+    font-weight: 100;
+    font-style: italic;
+    background-color: rgb(15, 15, 15, .5);
+    padding: 5px 10px;
+}
+
+
+
+#atracciones-sec {
+    color: #979797;
+    background: #0F0F0F;
+    height: 560px;
+}
+
+#Places-title {
+    color: #979797;
+    padding: 50px 0px 40px 0px;
+    font-weight: 500;
+    font-size: 32px;
+}
+
+#atracciones {
+    display: flex; 
+    height: 300px;
+    align-items:top;
+    margin-top: -10px;
+    justify-content: space-evenly;
+    padding: 0px 0px 100px 0px;
+}
+
+.atrac-img {
+    height: 135px;
+    
+}
+
+.atrac-parr {
+    width: 198px;
+    height: 227px;
+    font-weight: 200;
+    text-align: center;
+    font-size: 14px;   
+}
+
+.atrac-titles {
+    font-weight: 500;
+    font-style: italic;
+}
+
+#guide-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#383838;
+}
+#guide {
+    color: #1f1f1f;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #979797;
+    width: 600px;
+    margin: 65px auto;
+    box-shadow: 1px 4px 5px #1f1f1f;
+}
+
+#guide-photo-img {
+    height: 250px;
+}
+
+#guide-text {
+    width: 250px;
+    
+}
+
+#your-guide {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+#guide-name {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+p {
+    font-weight: 200;
+    font-style: italic;
+}
